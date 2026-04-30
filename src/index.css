@@ -1,0 +1,82 @@
+/* --- Page & Container Setup --- */
+body {
+  background-color: #ececec; /* Soft gray background behind the app */
+  font-family:
+    "Times New Roman", Times, serif; /* Matches the serif font in the mockup */
+  margin: 0;
+  padding: 40px 20px;
+  color: #000;
+}
+
+.app-container {
+  background-color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #000; /* Crisp black border like the mockup */
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* --- Guest List Table Styling --- */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges the borders together cleanly */
+  text-align: left;
+}
+
+th {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+td {
+  padding: 12px;
+}
+
+/* Zebra striping: makes every even row light gray */
+tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* The yellow highlight effect when you hover over a row */
+tbody tr.guest-row:hover {
+  background-color: #fdf59f;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* --- Guest Details Page Styling --- */
+.details-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Style the Back button */
+button {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #ccc;
+}
